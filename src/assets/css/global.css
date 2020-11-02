@@ -1,0 +1,29 @@
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-width: 1366px;
+}
+
+/* 卡片区域 */
+.el-card {
+  margin-top: 15px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+/* 用户列表区域 */
+.el-table {
+  margin-top: 15px;
+}
+.el-cascader__dropdown {
+  height: 300px;
+}
+.el-cascader-panel {
+  height: 100%;
+}
+/* 富文本编辑器的高度 */
+.ql-editor{
+    min-height: 300px;
+}
