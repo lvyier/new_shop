@@ -24,6 +24,24 @@ body,
   height: 100%;
 }
 /* 富文本编辑器的高度 */
-.ql-editor{
-    min-height: 300px;
+.ql-editor {
+  min-height: 300px;
+}
+.el-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #373d41;
+  color: #fff;
+  font-size: 20px;
+}
+
+.el-aside {
+  background-color: #333744;
+}
+.el-main {
+  background-color: #eaedf1;
+}
+.el-container {
+  height: 100%;
 }
